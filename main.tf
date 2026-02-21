@@ -1,6 +1,6 @@
 #create cluster in aws
 provider "aws" {
-  region = "us-east-2"
+  region = "ca-central-1"
 }
 
 resource "aws_vpc" "eks_vpc" {
